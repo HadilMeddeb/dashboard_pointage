@@ -1,0 +1,75 @@
+
+.sidebar
+{
+
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background: #136a8a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #136a8a, #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    top:0;
+    left:0;
+    color: #fff;
+    z-index: 100;
+
+    
+}
+.clear
+{
+   clear:both;
+}
+
+.sidebar-brand
+{
+    padding: 50px 48px ;
+}
+.sidebar-brand h2
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    margin-right: 20px;
+    
+   font-size: 30px;
+}
+
+.sidebar-menu
+{
+    margin-top: 50px;;
+}
+.sidebar-list-item 
+{
+    display: block;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+   align-items: center;
+}
+.sidebar-menu ul li a span
+{
+    padding-right: 20px;
+}
+.sidebar-menu ul li 
+{
+ transition: all   0.5s ease;
+ box-shadow: 0.5px 0.5px  rgba(0,0,0,0.3);
+}
+.sidebar-menu ul li :hover
+{
+ background:#111;
+ opacity: 0.5;
+ border: none;
+}
+@media  screen and (max-width:900px)
+{
+    .sidebar{width: 8%;}
+    .item-title
+    {
+        display: none;;
+    }
+    .sidebar-list-item{text-align: center;}
+}

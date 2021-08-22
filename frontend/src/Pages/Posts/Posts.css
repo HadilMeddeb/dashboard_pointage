@@ -1,0 +1,34 @@
+
+.form-control
+{
+    width: 40%;
+    margin-right: 10px;
+}
+.textarea-form
+{
+    width: 100%;
+}
+.pd-lg
+{
+    padding: 30px;
+    display: flex;
+   flex-direction: column;
+}
+.lg-title
+{
+    width: 100%;
+    float: right; 
+    margin-bottom: 20px;
+    padding:20px ;
+    display :flex; 
+    align-items: center;
+
+}
+.add-card-form
+{
+    padding:25px;
+    border: solid 1px #bbb
+ 
+}
+
+

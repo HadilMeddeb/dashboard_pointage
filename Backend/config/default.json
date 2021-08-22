@@ -1,0 +1,8 @@
+{
+    "mongoURI": "mongodb://localhost/pointing_dashboard",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId":"19f6c1b74f6f274d4af1",
+    "githubSecret":" 918eb90fcadecaab07a9015efa4df8dc87b197e4",
+    "sender":"test.stage.pointage.2021@gmail.com",
+    "password":"TestStage2021"
+} 

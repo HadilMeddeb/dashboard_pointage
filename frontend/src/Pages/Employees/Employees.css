@@ -1,0 +1,105 @@
+.main-content-info
+{
+    padding:0;
+margin:0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards-container
+{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-box {
+    float: left;
+    width: 23%;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 5px 2px #bbb;
+   
+}
+.card-box span
+{
+    margin-right: 20px;
+    font-size: 25px;
+    color: #267871;
+   
+}
+.content-pro-table
+{
+    padding: 50px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 20px #bbb;
+    display: flex;
+    flex-direction: column;
+
+}
+.styled-btn
+{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+    color: #fff;
+    height: 48px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+table tr
+{
+  display: flex;
+  justify-content:space-between;
+  border-bottom: solid 1px #bbb;
+}
+
+table tbody td ,th
+{
+ text-align: center;
+ padding:20px 0 ;
+}
+.mg-rg
+{
+    margin-right: 10px;
+}
+.icon{color:#111;}
+.icon:hover{  color: #267871;}
+
+.content-pro-table
+{
+    overflow-x:auto;
+}
+@media  screen and (max-width:900px)
+{
+    .card-box
+    {float: none;
+    width: 100%;
+    margin: 0 auto 20px auto;
+   }
+   table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+
+}

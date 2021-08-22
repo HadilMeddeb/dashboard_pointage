@@ -1,0 +1,93 @@
+.main-content
+{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.container
+{
+max-width: 1330px;
+margin: 0 auto;
+margin-top: 100px;
+padding:50px;
+}
+.main-header
+{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 10px 20px #bbb;
+    background-color: #fff;
+
+}
+.header-left {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+.header-left img
+{
+    padding-right:20px;
+    width: 13%;
+}
+.header-left p{
+    color: #bbb;
+}
+.pd-lf
+{padding-left: 15px;}
+.ft-lg-bld
+{font-size: 27px;}
+.pointer{cursor: pointer;}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+}
+.header-left.search input{
+    width: 65%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border:  solid 2px #bbb;
+    transition: all 1s ease;
+}
+
+.header-left.search input:focus
+{
+    outline: none;
+    border:  solid 2px #09b9b3;
+    width: 95%;
+
+}
+.header-left.search svg
+{
+    background: #09b9b3;
+    color: #fff;
+    width: 50px;
+    height: 35px;
+  
+    line-height: 35px;
+    border-bottom-right-radius:50px;
+    border-top-right-radius:50px;
+    margin-left: -50px;
+}
+
+@media  screen and (max-width:900px)
+{
+    .search
+    {
+        display: none;
+    }
+    .main-content
+    {
+        width: 92%;
+
+    }
+    .row{display:block;}
+}
